@@ -1,0 +1,232 @@
+
+<!--
+Slider section start         	  =
+======================================= -->
+<section id="slider-sections">
+	<div class="slide">
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="item-main slide-item1">
+
+						<img class="img-responsive animated fadeIn" src="assets/images/slide-img2.png" data-wow-delay=".3s" alt="slide image">
+
+						<div class="item-main-content1">
+							<div class="slide-content s-left">
+								<h2 class=" animated slideInLeft" data-wow-delay=".3s">Life is Better with Yoga</h2>
+							</div><!-- /.slide-content -->
+
+							<div class="slide-content  s-right">
+								<h2 class=" animated slideInRight" data-wow-delay=".3s">Life is Better with Yoga</h2>
+							</div><!-- /.slide-content -->
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="item-main slide-item3">
+						<img src="assets/images/slide-img5.png" class="img-responsive pull-left" alt="slide image">
+						<div class="item-main-content">
+							<div class="item-main-content-text">
+								<h2 class="animated slideInRight">Yoga Makes Your Mind Cool</h2>
+								<h3 class="animated slideInLeft">Exercises are like prose, Whereas Yoga is the Poetry of Movements</h3>
+								<p class="animated slideInUp">Yoga is not just repetation of few postures - it is more about the exploration and discovery of the subtle energies of life</p>
+							</div><!-- /.item-main-content-text -->
+						</div><!-- /.item-main-content -->
+					</div><!-- /.item-main -->
+				</div>
+
+				<div class="item">
+					<div class="item-main slide-item2">
+						<img src="assets/images/slide-img4.png" class="img-responsive pull-left" alt="slide image">
+						<div class="item-main-content">
+							<div class="slide-carousel-text">
+								<h2 class="slide-title animated slideInLeft">Welcome To Yooga</h2>
+								<h3 class="animated slideInRight">Yoga is <span>99% </span>Practice and <span> 1% </span>Theory</h3>
+								<p class="slide-desc animated slideInUp">Mountain pose teaches us, literally, how to stand on our own two feet.... teaching us to root ourselves into the earth.... Our bodies become a connection between heaven and earth</p>	
+							</div>
+						</div><!-- /.item-main-content -->
+					</div><!-- /.item-main -->
+				</div>
+			</div>
+
+
+			<!-- Controls -->
+			<a class="carousel-control1 left" href="#carousel-example-generic" role="button" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="carousel-control1 right" href="#carousel-example-generic" role="button" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+	</div><!-- /.slide -->
+</section>
+
+
+
+
+<!--   We do section start         	  =
+	======================================= -->
+	<section id="we-do" class="carousel-inner">
+		<div class="section-padding" >
+
+			<div class="head-section">
+				<h2 class="section-title"><span>Our</span><br>Services</h2>
+			</div> <!-- /.head-section -->
+
+			 <div [swiper]="config" (indexChange)="onIndexChange($event)" class="swiper-container">
+        <div class="swiper-wrapper"  >
+            <div class="swiper-slide"><img src="assets/images/s-slider-img1.jpg" class="img-responsive" alt="slide image"></div>
+            <div class="swiper-slide"><img src="assets/images/s-slider-img2.jpg" class="img-responsive" alt="slide image"></div>
+            <div class="swiper-slide"><img src="assets/images/s-slider-img3.jpg" class="img-responsive" alt="slide image"></div>
+            <div class="swiper-slide"><img src="assets/images/s-slider-img1.jpg" class="img-responsive" alt="slide image"></div>
+            <div class="swiper-slide"><img src="assets/images/s-slider-img2.jpg" class="img-responsive" alt="slide image"></div>
+            <div class="swiper-slide"><img src="assets/images/s-slider-img3.jpg" class="img-responsive" alt="slide image"></div>
+        </div>
+        <!-- Add Pagination -->
+        
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+		</div><!-- /.section-padding -->
+	</section>
+
+
+<!--
+Pro Trainer section start  	  =
+======================================= -->
+<section id="pro-trainer">
+	<div class="section-padding">
+		<div class="container">
+			<div class="row">
+
+				<h2 class="section-title"><span>Professional</span><br> Trainers</h2>
+				<div class="col-sm-4 col-md-4">
+					<div class="image-box">
+						<div class="b-img">
+							<a [routerLink]="['/trainors/trainorsportfolio']"><img src="assets/images/trainer-img1.jpg" alt="Trainers Image"></a>
+							<div class="overlay"></div><!-- /.overlay -->
+							<div class="social-media bounceInDown">
+								<a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="social-icon"><i class="fa fa-pinterest-p"></i></a>
+								<a href="#" class="social-icon last-border"><i class="fa fa-vimeo-square"></i></a>
+							</div><!-- /.social-media -->
+						</div><!-- /.b-img -->
+
+						<div class="image-des">
+							<h4><a href="">Rafino Yogo</a></h4>
+							<p>Fitness Trainer</p>
+						</div><!-- /.image-des -->
+					</div><!-- /.image-box -->
+				</div>
+				<div class="col-sm-4 col-md-4">
+					<div class="image-box">
+						<div class="b-img">
+							<a href="trainer-portfolio.html"><img src="assets/images/trainer-img2.jpg" alt="Trainers Image"></a>
+							<div class="overlay"></div><!-- /.overlay -->
+							<div class="social-media">
+								<a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="social-icon"><i class="fa fa-pinterest-p"></i></a>
+								<a href="#" class="social-icon last-border"><i class="fa fa-vimeo-square"></i></a>
+							</div><!-- /.social-media -->
+						</div><!-- /.b-img -->
+
+						<div class="image-des">
+							<h4><a href="">Karlose Adriano</a></h4>
+							<p>Yoga Trainer</p>
+						</div><!-- /.image-des -->
+					</div><!-- /.image-box -->
+				</div>
+				<div class="col-sm-4 col-md-4">
+					<div class="image-box">
+						<div class="b-img">
+							<a href="trainer-portfolio.html"><img src="assets/images/trainer-img3.jpg" alt="Trainers Image"></a>
+							<div class="overlay"></div><!-- /.overlay -->
+							<div class="social-media">
+								<a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="social-icon"><i class="fa fa-pinterest-p"></i></a>
+								<a href="#" class="social-icon last-border"><i class="fa fa-vimeo-square"></i></a>
+							</div><!-- /.social-media -->
+						</div><!-- /.b-img -->
+
+						<div class="image-des">
+							<h4><a href="">Zerin Yagrinuqe</a></h4>
+							<p>Hard Yoga Teach</p>
+						</div><!-- /.image-des -->
+					</div><!-- /.image-box -->
+				</div>
+
+
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.section-padding -->
+</section>
+
+
+
+<!--
+Why choose section start      =
+======================================= -->
+<section id="why-choose">
+	<div class="choose-main-container">
+		<div class="choose-main-item-img"></div><!-- /.choose-main-item-img -->
+
+		<div class="choose-main-item-des">
+			<div class="choose-main-item-desc-content">
+				<h2 class="section-title"><span>Why</span><br> Choose Yoga</h2>
+				<p>Compellingly evisculate future-proof methods of empowerment for wireless architectures. Proactively fashion orthogonal growth strategies without B2B interfaces.</p>
+
+				<div class="choose-box">
+					<a href="#" class="choose-icon"><i class="fa fa-user"></i></a>
+					<h4 class="choose-title"><a href="#">Professional Trainer</a></h4>
+					<p>Collaboratively develop corporate action items vis-a-vis user friendly resources. Interactively reconceptualize interoperable processes.</p>
+				</div><!-- /.choose-box -->
+
+				<div class="choose-box">
+					<a href="#" class="choose-icon"><i class="fa fa-paw"></i></a>
+					<h4 class="choose-title"><a href="#">Exclusive Accessories</a></h4>
+					<p>Collaboratively develop corporate action items vis-a-vis user friendly resources. Interactively reconceptualize interoperable processes.</p>
+				</div><!-- /.choose-box -->
+
+				<div class="choose-box">
+					<a href="#" class="choose-icon"><i class="fa fa-usd"></i></a>
+					<h4 class="choose-title"><a href="#">Money Back Guarrantee</a></h4>
+					<p>Collaboratively develop corporate action items vis-a-vis user friendly resources. Interactively reconceptualize interoperable processes.</p>
+				</div><!-- /.choose-box -->
+			</div><!-- /.choose-main-item-desc-content -->
+		</div><!-- /.choose-main-item-img -->
+	</div><!-- /.choose-main-container -->
+</section>
+
+
+
+
+
+
+
+<!--
+qoute section start         =
+======================================= -->
+<section id="qoute">
+	<div class="container">
+	
+		<div class="flexslider sliding-area">
+			<ul class="slides">
+				<ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+			</ul>
+
+		</div> <!-- /.flexslider-->
+	</div><!-- /.container -->
+</section>
