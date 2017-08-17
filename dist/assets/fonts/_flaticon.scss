@@ -1,0 +1,71 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/08/2017 15:46
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-massage-3:before { content: "\f100"; }
+.flaticon-massage-2:before { content: "\f101"; }
+.flaticon-foot-massage:before { content: "\f102"; }
+.flaticon-rehabilitation:before { content: "\f103"; }
+.flaticon-acupuncture:before { content: "\f104"; }
+.flaticon-massage-1:before { content: "\f105"; }
+.flaticon-person-on-meditation-posture-on-a-desk:before { content: "\f106"; }
+.flaticon-woman-with-open-legs-posture:before { content: "\f107"; }
+.flaticon-exercise:before { content: "\f108"; }
+.flaticon-stretching-exercises:before { content: "\f109"; }
+.flaticon-hinduist-yoga-position:before { content: "\f10a"; }
+.flaticon-yoga:before { content: "\f10b"; }
+.flaticon-flower-therapy:before { content: "\f10c"; }
+.flaticon-physiotherapy:before { content: "\f10d"; }
+.flaticon-therapy:before { content: "\f10e"; }
+.flaticon-massage:before { content: "\f10f"; }
+    
+    $font-Flaticon-massage-3: "\f100";
+    $font-Flaticon-massage-2: "\f101";
+    $font-Flaticon-foot-massage: "\f102";
+    $font-Flaticon-rehabilitation: "\f103";
+    $font-Flaticon-acupuncture: "\f104";
+    $font-Flaticon-massage-1: "\f105";
+    $font-Flaticon-person-on-meditation-posture-on-a-desk: "\f106";
+    $font-Flaticon-woman-with-open-legs-posture: "\f107";
+    $font-Flaticon-exercise: "\f108";
+    $font-Flaticon-stretching-exercises: "\f109";
+    $font-Flaticon-hinduist-yoga-position: "\f10a";
+    $font-Flaticon-yoga: "\f10b";
+    $font-Flaticon-flower-therapy: "\f10c";
+    $font-Flaticon-physiotherapy: "\f10d";
+    $font-Flaticon-therapy: "\f10e";
+    $font-Flaticon-massage: "\f10f";
